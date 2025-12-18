@@ -6,14 +6,14 @@ This project demonstrates how **Data Science + ML models + LLMs** can be combine
 
 ---
 
-## 📌 Key Features
+## 1. Key Features
 
-### 📈 Interactive Dashboard
+### Interactive Dashboard
 - Overall system metrics (accuracy, delay rate)
 - Carrier on-time performance visualization
 - Top delivery risk factors
 
-### 🔮 Delivery Delay Prediction (ML-powered)
+### Delivery Delay Prediction (ML-powered)
 - Predicts probability of delivery delay
 - Considers:
   - Carrier risk
@@ -25,7 +25,7 @@ This project demonstrates how **Data Science + ML models + LLMs** can be combine
   - Promised delivery days
 - Provides **risk level classification** and **actionable recommendations**
 
-### 🚚 Carrier Recommendation System
+### Carrier Recommendation System
 - Compares multiple logistics carriers
 - Ranks carriers based on:
   - On-time probability
@@ -34,19 +34,17 @@ This project demonstrates how **Data Science + ML models + LLMs** can be combine
   - Weighted performance score
 - Helps choose the **best carrier for given constraints**
 
-### 💰 Delay Cost Impact Analysis
+### Delay Cost Impact Analysis
 - Calculates:
   - Direct delay cost
   - Customer churn risk
   - Total business impact
 - Provides **ROI analysis** for preventive actions
 
-### 🤖 AI-Powered Logistics Assistant
+### AI-Powered Logistics Assistant
 - Chat naturally using **Ollama (local LLM)**
 - Understands queries like:
   - “What’s the delay risk for Mumbai to Delhi express delivery?”
-  - “Which carrier is most reliable?”
-  - “Calculate loss if my order is delayed”
 - Uses:
   - Rule-based parameter extraction
   - ML-based / mock delay prediction
@@ -67,5 +65,26 @@ This project demonstrates how **Data Science + ML models + LLMs** can be combine
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
+├── app.py # Main Streamlit application
+├── chatbot.py # Standalone AI chatbot app
+├── model.pkl # Trained delay prediction model
+├── carrier_model.pkl # Carrier recommendation model
+├── carrier_risk.pkl # Carrier risk mapping
+├── carrier_performance.pkl # Historical carrier performance
+├── mappings.pkl # Feature score mappings
+├── features.txt # Model feature list
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/delivery-delay-predictor.git
+cd delivery-delay-predictor
+```
