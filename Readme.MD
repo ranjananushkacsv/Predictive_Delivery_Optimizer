@@ -63,21 +63,6 @@ This project demonstrates how **Data Science + ML models + LLMs** can be combine
 | Backend | Python |
 | Model Storage | Joblib |
 
----
-
-## Project Structure
-
-├── app.py # Main Streamlit application
-├── chatbot.py # Standalone AI chatbot app
-├── model.pkl # Trained delay prediction model
-├── carrier_model.pkl # Carrier recommendation model
-├── carrier_risk.pkl # Carrier risk mapping
-├── carrier_performance.pkl # Historical carrier performance
-├── mappings.pkl # Feature score mappings
-├── features.txt # Model feature list
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
 
 ---
 
@@ -87,4 +72,30 @@ This project demonstrates how **Data Science + ML models + LLMs** can be combine
 ```bash
 git clone https://github.com/your-username/delivery-delay-predictor.git
 cd delivery-delay-predictor
+```
+### 2️⃣ Create Virtual Environment (Recommended)
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux / Mac
+venv\Scripts\activate      # Windows
+```
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+## Ollama Setup
+
+### Pull Model
+```bash
+ollama pull mistral
+```
+### Start Ollama Server
+```bash
+ollama serve
+```
+
+## ▶️ Running the Application
+
+```bash
+streamlit run app.py
 ```
