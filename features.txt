@@ -1,0 +1,7 @@
+carrier_risk
+traffic_risk
+weather_risk
+distance_risk
+priority_risk
+international
+promised_risk
