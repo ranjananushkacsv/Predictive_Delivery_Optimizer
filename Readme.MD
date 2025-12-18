@@ -99,3 +99,6 @@ ollama serve
 ```bash
 streamlit run app.py
 ```
+
+## ScreenShot
+![page1](https://github.com/ranjananushkacsv/Predictive_Delivery_Optimizer/blob/main/assets/Screenshot%202025-12-18%20213813.png)
